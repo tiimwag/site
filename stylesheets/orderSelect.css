@@ -35,11 +35,23 @@ body::-webkit-scrollbar {
   margin: 0 auto;
   line-height: 55px;
 }
-.next, .prev {
+.next1, .next2, .next3, .prev2, .prev3 {
   color: #F7F7FF;
 }
-.next:hover, .prev:hover {
+.next1:hover, .next2:hover, .next3:hover, .prev2:hover, .prev3:hover {
   cursor: pointer;
+}
+.input1 {
+  width: 94%;
+  height: 65px;
+  margin: 0 3% 50px;
+  border: 0px;
+  background-color: #131112;
+  font-family: 'PP Neue Montreal';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  color: #F7F7FF;
 }
 /* .rect {
   position: absolute;
@@ -52,4 +64,42 @@ body::-webkit-scrollbar {
 .step2 {
   position: absolute;
   display: none;
+}
+.step3 {
+  position: absolute;
+  display: none;
+}
+.sliders {
+  width: 94%;
+  margin: 0 3%;
+  display: flex;
+}
+.slider {
+  -webkit-appearance: none;
+  width: 40%;
+  height: 5px;
+  border-radius: 5px;
+  background: #FFFFFF;
+  outline: none;
+  opacity: 1;
+  -webkit-transition: .2s;
+  margin: 0 5%;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  cursor: pointer;
 }
