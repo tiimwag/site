@@ -2,7 +2,7 @@
   font-family: "PPNeueMontreal";
   src: url("../fonts/PPNeueMontreal-Regular.ttf");
   src: local("PPNeueMontreal Regular"), local("PPNeueMontreal-Regular"),
-    url("../fonts/PPNeueMontreal-Regular.ttf") format("truetype");
+      url("../fonts/PPNeueMontreal-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
