@@ -1,0 +1,41 @@
+body {
+  overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+.library {
+  filter: blur(0);
+}
+.wide {
+  margin: 135px auto 90px;
+  z-index: 2;
+  line-height: 72px;
+}
+.dreamGrid {
+  position: relative;
+  display: block;
+  width: 94%;
+  margin: 0 auto;
+}
+.dreamLine {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.dreamLineT {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.dreamLineT > h3, .dreamLineT > a {
+  width: 20%;
+  text-align: center;
+}
+.dream {
+  position: relative;
+  width: 20%;
+  height: 10%;
+}

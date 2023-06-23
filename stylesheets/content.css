@@ -1,0 +1,61 @@
+body {
+  background: black;
+}
+h1 {
+  font-family: 'PP Neue Montreal';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  color: #F7F7FF;
+}
+h2 {
+  font-family: 'PP Neue Montreal';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  color: #F7F7FF;
+}
+h3 {
+  font-family: 'PP Neue Montreal';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  color: #F7F7FF;
+}
+a {
+  text-decoration: none;
+}
+.nav {
+  display: flex;
+  width: 94%;
+  justify-content: space-between;
+  margin: 40px auto 0;
+  overflow: hidden;
+}
+.navi {
+  position: relative;
+  font-family: 'PP Neue Montreal';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #F7F7FF;
+  margin-top: 10px;
+  filter: blur(1.4px);
+  transition: 0.3s all ease-out;
+}
+.navi:hover {
+  filter: blur(0);
+  cursor: pointer;
+  transition: 0.3s all ease-out;
+}
+.hugeTXT {
+  position: relative;
+  width: 94%;
+}
+.goodsM {
+  margin-right: 35%;
+}
+.logo {
+  position: relative;
+  width: 60px;
+}

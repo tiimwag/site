@@ -1,0 +1,41 @@
+body {
+  overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+.goods {
+  filter: blur(0);
+}
+.wide {
+  margin: 135px auto 60px;
+  z-index: 2;
+  line-height: 72px;
+}
+.goodsGrid {
+  position: relative;
+  display: block;
+  width: 94%;
+  margin: 0 auto;
+}
+.goodsLine {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.goodsLineT {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.goodsLineT > h3, .goodsLineT > a {
+  width: 20%;
+  text-align: center;
+}
+.good {
+  position: relative;
+  width: 20%;
+  height: 10%;
+}

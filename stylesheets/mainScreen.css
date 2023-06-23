@@ -1,0 +1,27 @@
+body {
+  overflow: hidden;
+}
+.wide {
+  margin: 135px auto;
+  z-index: 2;
+  line-height: 72px;
+}
+.m1, .m2, .m3 {
+  position: absolute;
+  width: 450px;
+}
+.m1 {
+  top: -151px;
+  left: 625px;
+  z-index: 3;
+}
+.m2 {
+  top: 240px;
+  left: -106px;
+  z-index: 3;
+}
+.m3 {
+  top: 400px;
+  left: 1170px;
+  z-index: 1;
+}

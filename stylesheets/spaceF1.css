@@ -1,0 +1,46 @@
+body {
+  overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+.space {
+  filter: blur(0);
+}
+.wide {
+  margin: 0 auto 90px;
+  z-index: 2;
+  line-height: 72px;
+}
+.wait {
+  width: 60%;
+  margin: 0 20%;
+}
+.spaceGrid {
+  position: relative;
+  display: flex;
+  width: 94%;
+  margin: 100px auto 40px;
+}
+.spaceColumn1 {
+  position: relative;
+  width: 50%;
+  background-color: #222222;
+  border-radius: 10px;
+}
+.spaceColumn1 > img {
+  width: 80%;
+  margin: 0 10%;
+}
+.spaceColumn2 {
+  position: relative;
+  width: 50%;
+}
+.spaceColumn2 > h2 {
+  width: 80%;
+  margin: 50px 10% 0;
+}
+.subsc {
+  width: 94%;
+  margin: 0 3% 100px;
+}

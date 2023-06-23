@@ -1,0 +1,30 @@
+body {
+  overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+.goods {
+  filter: blur(0);
+}
+.goodsGrid {
+  position: relative;
+  display: flex;
+  width: 94%;
+  margin: 200px auto 100px;
+}
+.goodsColumn1 {
+  position: relative;
+  width: 50%;
+}
+.goodsColumn1 > h1 {
+  margin: 0 0 -40px 0;
+}
+.goodsColumn2 {
+  position: relative;
+  width: 50%;
+}
+.goodsColumn2 > img {
+  width: 80%;
+  margin: -100px 10% 0;
+}

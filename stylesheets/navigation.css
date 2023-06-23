@@ -1,0 +1,15 @@
+.nav {
+  display: flex;
+  height: 40px;
+  position: fixed;
+  top: 110px;
+  left: 20px;
+  overflow: hidden;
+}
+.navi {
+  font-family: 'PP Neue Montreal';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  color: #F7F7FF;
+}

@@ -1,0 +1,23 @@
+body {
+  overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+.order {
+  filter: blur(0);
+}
+.white {
+  width: 16%;
+  margin: 0 42%;
+}
+.wide {
+  margin: 5px auto 0;
+  z-index: 2;
+  line-height: 72px;
+}
+.start {
+  width: 30%;
+  margin: 0 67% 0 3%;
+  text-decoration: underline;
+}

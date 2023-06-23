@@ -1,0 +1,48 @@
+body {
+  overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+.library {
+  filter: blur(0);
+}
+section {
+  position: relative;
+  display: block;
+}
+.dreaming {
+  width: 100%;
+  justify-content: center;
+  margin-bottom:
+}
+.cruel {
+  position: relative;
+  width: 26%;
+  margin: 0 37%;
+}
+.dreaming > h2 {
+  text-align: center;
+}
+.options {
+  position: relative;
+  display: flex;
+  width: 94%;
+  margin: 70px auto;
+}
+.options > div {
+  width: 50%;
+}
+div > h1 {
+  line-height: 35px;
+}
+.optionsRight > h1 {
+  color: #B9B9C0;
+}
+.subscript {
+  position: relative;
+  width: 94%;
+  margin: 0 auto 100px;
+}
+/* .options:nth-child(1) {
+} */

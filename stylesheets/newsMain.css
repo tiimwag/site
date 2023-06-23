@@ -1,0 +1,35 @@
+body {
+  overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+.news {
+  filter: blur(0);
+}
+.wide {
+  margin: 135px auto 90px;
+  z-index: 2;
+  line-height: 72px;
+}
+.series1, .series2 {
+  display: flex;
+  width: 94%;
+  margin: 20px 3% 0;
+  justify-content: space-between;
+}
+.series1 > img, .series2 > img {
+  position: relative;
+  width: 33%;
+}
+.gridSubs {
+  width: 94%;
+  margin: 0 3%;
+  display: flex;
+}
+.subsCol1, .subsCol2 {
+  width: 50%;
+}
+.reg {
+  text-decoration: underline;
+}
